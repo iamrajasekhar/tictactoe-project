@@ -1,0 +1,25 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.cell {
+    background-color: lightgray;
+    border: 1px solid gray;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#message {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
